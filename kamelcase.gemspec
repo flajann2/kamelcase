@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Fred Mitchell".freeze]
   s.date = "2017-05-09"
-  s.description = "TODO: longer description of your gem".freeze
+  s.description = "This is a -- yet another -- super-simple monkeypatch of the\n  String class to offer both camelCase and snake_case.".freeze
   s.email = "fred.mitchell@gmx.de".freeze
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,12 +27,13 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.org",
     "Rakefile",
+    "kamelcase.gemspec",
     "lib/kamelcase.rb"
   ]
   s.homepage = "http://github.com/flajann2/kamelcase".freeze
   s.licenses = ["MIT".freeze]
   s.rubygems_version = "2.6.11".freeze
-  s.summary = "TODO: one-line summary of your gem".freeze
+  s.summary = "Supersimple monkeypatch of the String class to add camelCase".freeze
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
