@@ -16,14 +16,16 @@ require 'semver'
 def s_version
   SemVer.find.format "%M.%m.%p%s"
 end
+
 require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "kamelcase"
   gem.homepage = "http://github.com/flajann2/kamelcase"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Supersimple monkeypatch of the String class to add camelCase}
+  gem.description = %Q{This is a -- yet another -- super-simple monkeypatch of the
+  String class to offer both camelCase and snake_case.}
   gem.email = "fred.mitchell@gmx.de"
   gem.authors = ["Fred Mitchell"]
   gem.version = s_version
