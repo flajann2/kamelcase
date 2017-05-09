@@ -1,6 +1,32 @@
 * kamelcase
 
-  Description goes here.
+  This is a -- yet another -- super-simple monkeypatch of the
+  String class to offer both camelCase and snake_case.
+
+** Installing
+
+   From the command-line:
+   #+begin_src bash
+   gem install kamelcase
+   #+end_src
+
+   From your gemfile:
+   #+begin_src ruby
+   gem 'kamelcase', '~> 0'
+   #+end_src
+
+** Usage and Examples
+   #+begin_src ruby
+   require 'kamelcase'
+   s = 'little green men'
+
+   puts s.camel             # LittleGreenMen
+   puts s.camel_lower       # littleGreenMen
+   puts s.snake             # little_green_men
+   puts s.camel.snake       # little_green_men
+   puts s.snake.camel       # LittleGreenMen
+   puts s.snake.camel_lower # littleGreenMen
+   #+end_src
 
 ** Contributing to kamelcase
  
