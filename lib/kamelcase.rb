@@ -18,4 +18,8 @@ class String
         tr(' ', '_').
         downcase
   end
+
+  def nuke chars
+    self.tr(chars, '')
+  end
 end

@@ -26,6 +26,7 @@
    puts s.camel.snake       # little_green_men
    puts s.snake.camel       # LittleGreenMen
    puts s.snake.camel_lower # littleGreenMen
+   puts s.nuke('it')        # lle green men
    #+end_src
 
 ** Contributing to kamelcase
