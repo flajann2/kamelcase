@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Fred Mitchell".freeze]
-  s.date = "2017-06-16"
+  s.date = "2018-01-22"
   s.description = "This is a -- yet another -- super-simple monkeypatch of the\n  String class to offer both camelCase and snake_case.".freeze
   s.email = "fred.mitchell@gmx.de".freeze
   s.extra_rdoc_files = [
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/flajann2/kamelcase".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.6.11".freeze
+  s.rubygems_version = "2.7.3".freeze
   s.summary = "Supersimple monkeypatch of the String class to add camelCase".freeze
 
   if s.respond_to? :specification_version then
